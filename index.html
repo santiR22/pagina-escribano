@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Norberto Julian Simon - Escribano Público</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre Mí</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#ubicacion">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio">
+        <h1>Norberto Julian Simon</h1>
+        <h2>Escribano Público Nacional</h2>
+      </section>
+
+      <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>
+          Soy un profesional con más de 15 años de experiencia en el campo
+          notarial y contable...
+        </p>
+        <a href="cv.pdf" download class="btn">Descargar CV</a>
+      </section>
+
+      <section id="servicios">
+        <!-- <h2>Servicios</h2>
+        <ul>
+          <li>Escrituras públicas</li>
+          <li>Autenticaciones</li>
+          <li>Asesoría contable</li>
+          <li>Declaraciones de impuestos</li>
+        </ul> -->
+        <h2>Asesoramiento notarial integral</h2>
+        <ul>
+          <li>Fideicomisos</li>
+          <li>Sociedades</li>
+          <li>Contratos de Colaboración Empresaria</li>
+          <li>Leasing inmobiliarios y mobiliarios</li>
+          <li>Transferencias de fondos de comercio</li>
+          <li>Compraventas</li>
+          <li>Donaciones</li>
+          <li>Hipotecas</li>
+          <li>Poderes</li>
+        </ul>
+      </section>
+
+      <section id="ubicacion">
+        <h2>Ubicación y Contacto</h2>
+        <div class="ubicacion-container">
+          <div class="contact-info">
+            <div class="info-item">
+              <div>
+                <h3><span class="icon">📍</span>Dirección:</h3>
+                <p>San Juan 1180 - Corrientes - Argentina</p>
+                <p>C.P: 3.400</p>
+              </div>
+            </div>
+            <br />
+            <div class="info-item">
+              <div>
+                <h3><span class="icon">📞</span>Teléfono:</h3>
+                <p>+54 9 3795 030805</p>
+              </div>
+            </div>
+            <br />
+
+            <div class="info-item">
+              <div>
+                <h3><span class="icon">✉️</span>E-mail:</h3>
+                <a href="mailto:juliansimon@juliansimon.com.ar"
+                  >juliansimon@juliansimon.com.ar</a
+                >
+              </div>
+            </div>
+            <br />
+
+            <div class="info-item">
+              <div>
+                <h3><span class="icon">🌐</span>Sitio web:</h3>
+                <a
+                  href="http://www.juliansimon.com.ar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >www.juliansimon.com.ar</a
+                >
+              </div>
+            </div>
+          </div>
+          <br />
+
+          <div id="mapa"></div>
+        </div>
+        <!-- <div id="mapa"></div> -->
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+          <input type="text" placeholder="Nombre" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Mensaje" required></textarea>
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Norberto Julian Simon - Escribano Público</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
